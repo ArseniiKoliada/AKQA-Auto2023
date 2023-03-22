@@ -16,7 +16,7 @@ class User:
         self.second_name = ''
 
 
-
+# a fixture that creates a user using create method from User class and removes it before execution of each test
 @pytest.fixture
 def user():
     user = User()

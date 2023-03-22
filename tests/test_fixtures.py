@@ -1,6 +1,6 @@
 import pytest
 
-
+# test the fixtures
 @pytest.mark.check
 def test_change_name(user):
        assert user.name == 'Arsenii'
